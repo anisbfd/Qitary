@@ -13,35 +13,19 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Row(
-              children: [
-                Align(
-                  alignment: Alignment.topLeft,
-                  child: Text(
-                    'Hello, user 👋',
-                    style: TextStyle(
-                      fontSize: 17,
-                      fontWeight: FontWeight.w400,
-                      color: Color.fromRGBO(0, 0, 0, 0.62),
-                    ),
-                  ),
+            const SizedBox(height: 25),
+            Align(
+              alignment: Alignment.topLeft,
+              child: Text(
+                'Hello, user 👋',
+                style: TextStyle(
+                  fontSize: 17,
+                  fontWeight: FontWeight.w400,
+                  color: Color.fromRGBO(0, 0, 0, 0.62),
                 ),
-                Spacer(),
-                Align(
-                  alignment: Alignment.topRight,
-                  child: SizedBox(
-                    height: 80,
-                    width: 80,
-                    child: Image.asset(
-                      'assets/sntf.png',
-                      height: 80,
-                      width: 80,
-                    ),
-                  ),
-                ),
-              ],
+              ),
             ),
-            const SizedBox(height: 12),
+            const SizedBox(height: 25),
             Container(
               height: 52,
               width: double.infinity,

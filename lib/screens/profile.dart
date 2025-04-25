@@ -230,8 +230,9 @@ class ProfileScreen extends StatelessWidget {
                                 Row(
                                   children: [
                                     //Image.asset('assets/profile.png',
-                                        //width: 30, height: 30),
-                                      Icon(Icons.person_outline, color: Colors.blue, size: 25),
+                                    //width: 30, height: 30),
+                                    Icon(Icons.person_outline,
+                                        color: Colors.blue, size: 25),
                                     SizedBox(width: 10),
                                     Text('Profile Settings',
                                         style: TextStyle(fontSize: 16)),
@@ -260,8 +261,9 @@ class ProfileScreen extends StatelessWidget {
                                 Row(
                                   children: [
                                     //Image.asset('assets/settings.png',
-                                        //width: 30, height: 30),
-                                    Icon(Icons.settings_outlined, color: Colors.yellow, size: 25),
+                                    //width: 30, height: 30),
+                                    Icon(Icons.settings_outlined,
+                                        color: Colors.yellow, size: 25),
                                     SizedBox(width: 10),
                                     Text('App Settings',
                                         style: TextStyle(fontSize: 16)),
@@ -289,8 +291,11 @@ class ProfileScreen extends StatelessWidget {
                                 Row(
                                   children: [
                                     //Image.asset('assets/what.png',
-                                        //width: 30, height: 30),
-                                    Icon(Icons.help_outline, color: const Color.fromARGB(255, 75, 255, 81), size: 25),
+                                    //width: 30, height: 30),
+                                    Icon(Icons.help_outline,
+                                        color: const Color.fromARGB(
+                                            255, 75, 255, 81),
+                                        size: 25),
                                     SizedBox(width: 10),
                                     Text('Help',
                                         style: TextStyle(fontSize: 16)),
@@ -318,8 +323,10 @@ class ProfileScreen extends StatelessWidget {
                                 Row(
                                   children: [
                                     //Image.asset('assets/problem.png',
-                                        //width: 30, height: 30),
-                                    Icon(Icons.info_outline, color: Colors.deepPurpleAccent, size: 25),
+                                    //width: 30, height: 30),
+                                    Icon(Icons.info_outline,
+                                        color: Colors.deepPurpleAccent,
+                                        size: 25),
                                     SizedBox(width: 10),
                                     Text('About Us',
                                         style: TextStyle(fontSize: 16)),
